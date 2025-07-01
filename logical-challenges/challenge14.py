@@ -7,7 +7,7 @@ for i in range(quantidade):
 resumo = []
 
 for i in range(quantidade):
-    nota = float(input(f"Digite a nota {i}: "))
+    nota = float(input(f"Digite a nota {i}: "))  
     notas.append(nota)
         
 media = sum(notas) / len(notas)
